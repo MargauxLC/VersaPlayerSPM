@@ -8,6 +8,7 @@
 
 import AVFoundation
 
+@available(iOSApplicationExtension, unavailable)
 open class VersaPlayer: AVPlayer, AVAssetResourceLoaderDelegate {
     
     /// Dispatch queue for resource loader
@@ -100,6 +101,7 @@ open class VersaPlayer: AVPlayer, AVAssetResourceLoaderDelegate {
     
 }
 
+@available(iOSApplicationExtension, unavailable)
 extension VersaPlayer {
     
     /// Start time

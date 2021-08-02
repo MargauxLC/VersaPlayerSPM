@@ -8,6 +8,7 @@
 
 import Foundation
 
+@available(iOSApplicationExtension, unavailable)
 open class VersaPlayerExtension: NSObject {
     
     /// VersaPlayer instance being used

@@ -8,6 +8,7 @@
 import Foundation
 import AVFoundation
 
+@available(iOSApplicationExtension, unavailable)
 public struct VersaPlayerMediaTrack {
     public var option: AVMediaSelectionOption
     public var group: AVMediaSelectionGroup

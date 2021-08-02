@@ -28,6 +28,7 @@ public typealias PIPProtocol = AVPictureInPictureControllerDelegate
 public protocol PIPProtocol {}
 #endif
 
+@available(iOSApplicationExtension, unavailable)
 open class VersaPlayerView: View, PIPProtocol {
     
     deinit {

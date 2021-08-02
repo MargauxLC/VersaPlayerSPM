@@ -13,6 +13,7 @@ import UIKit
 #endif
 import AVKit
 
+@available(iOSApplicationExtension, unavailable)
 open class VersaPlayerRenderingView: View {
 
   #if os(iOS)

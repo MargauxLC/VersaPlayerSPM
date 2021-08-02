@@ -18,6 +18,7 @@ import AVKit
 import MediaPlayer
 #endif
 
+@available(iOSApplicationExtension, unavailable)
 open class VersaPlayerControls: View {
     
     /// VersaPlayer intance being controlled

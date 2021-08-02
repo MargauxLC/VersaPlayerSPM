@@ -8,6 +8,7 @@
 
 import AVFoundation
 
+@available(iOSApplicationExtension, unavailable)
 open class VersaPlayerItem: AVPlayerItem {
     
     /// whether content passed through the asset is encrypted and should be decrypted

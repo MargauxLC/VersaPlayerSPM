@@ -7,6 +7,7 @@
 
 import Foundation
 
+@available(iOSApplicationExtension, unavailable)
 public protocol VersaPlayerDecryptionDelegate: AnyObject {
     func urlFor(player: VersaPlayer) -> URL
     func contentIdFor(player: VersaPlayer) -> String

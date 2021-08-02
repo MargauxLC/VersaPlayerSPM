@@ -13,6 +13,7 @@ import UIKit
 #endif
 import Foundation
 
+@available(iOSApplicationExtension, unavailable)
 open class VersaPlayerControlsBehaviour {
     
     /// VersaPlayerControls instance being controlled

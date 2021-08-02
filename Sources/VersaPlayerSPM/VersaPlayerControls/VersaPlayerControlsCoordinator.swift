@@ -14,6 +14,7 @@ import UIKit
 import CoreMedia
 import AVFoundation
 
+@available(iOSApplicationExtension, unavailable)
 open class VersaPlayerControlsCoordinator: View, VersaPlayerGestureRecieverViewDelegate {
 
     /// VersaPlayer instance being used

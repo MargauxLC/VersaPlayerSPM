@@ -9,6 +9,7 @@
 import Foundation
 import AVFoundation
 
+@available(iOSApplicationExtension, unavailable)
 public protocol VersaPlayerPlaybackDelegate: AnyObject {
     
     /// Notifies when playback time changes
@@ -95,6 +96,7 @@ public protocol VersaPlayerPlaybackDelegate: AnyObject {
     
 }
 
+@available(iOSApplicationExtension, unavailable)
 public extension VersaPlayerPlaybackDelegate {
 
     func timeDidChange(player: VersaPlayer, to time: CMTime) { }

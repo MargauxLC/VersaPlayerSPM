@@ -8,6 +8,7 @@
 import Foundation
 import AVFoundation
 
+@available(iOSApplicationExtension, unavailable)
 public class VersaPlayerCaptionStyling {
     
     weak var player: VersaPlayer!
